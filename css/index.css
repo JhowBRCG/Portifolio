@@ -48,3 +48,32 @@ a::before {
   background-color: rgb(255, 255, 255);
   color: black;
 }
+
+#name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28.5px;
+  width: 627px;
+  height: 185px;
+  margin: 101px 720px 498px 91px;
+
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+
+  background-color: #828282;
+  box-shadow: 10px 10px 0px #000;
+
+  text-align: center;
+}
+
+#name h1 {
+  color: #ceb02a;
+  text-shadow: 4px 4px 0px #000000;
+}
+
+#name h2 {
+  color: #fff;
+  text-shadow: 4px 4px 0px #000000;
+}
