@@ -1,3 +1,7 @@
+body {
+  background: url(/assets/img/background.jpg) no-repeat top center/cover;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -6,9 +10,10 @@ header {
   padding: 10px 20px;
 }
 
-a {
+nav a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   color: #000;
   font-size: 20px;
   font-family: "Fira Code", Arial, Helvetica, sans-serif;
@@ -21,7 +26,7 @@ nav {
   text-align: right;
 }
 
-a::before {
+nav a::before {
   content: "";
   width: 10px;
   height: 10px;
@@ -44,9 +49,21 @@ a::before {
 
 #button:hover {
   transform: scale(1.09);
-  transition: 0.2s;
+  transition: 0.2s cubic-bezier(0, 0.49, 0.94, 2.38);
   background-color: rgb(255, 255, 255);
   color: black;
+}
+
+#container-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 627px;
+  height: 284px;
+  padding: 20px;
+  margin-left: 91px;
+  margin-top: 101px;
+  gap: 38px;
 }
 
 #name {
@@ -56,7 +73,6 @@ a::before {
   gap: 28.5px;
   width: 627px;
   height: 185px;
-  margin: 101px 720px 498px 91px;
 
   font-family: "Press Start 2P", sans-serif;
   font-weight: 400;
@@ -76,4 +92,41 @@ a::before {
 #name h2 {
   color: #fff;
   text-shadow: 4px 4px 0px #000000;
+}
+
+.buttons {
+  display: flex;
+  gap: 112px;
+
+  align-items: center;
+}
+
+.buttons a {
+  display: inline-block;
+
+  text-align: center;
+  line-height: 60px;
+
+  width: 170px;
+  height: 60px;
+
+  background-color: #ceb02a;
+  box-shadow: 5px 5px 0px #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 5px 5px;
+
+  font-size: 20px;
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.2s cubic-bezier(0, 0.49, 0.94, 2.38);
+}
+
+.buttons a:hover {
+  transform: scale(1.09);
+  transition: 0.2s cubic-bezier(0, 0.49, 0.94, 2.38);
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
