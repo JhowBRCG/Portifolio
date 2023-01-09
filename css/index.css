@@ -84,11 +84,6 @@ nav a::before {
   text-align: center;
 }
 
-#name h2 {
-  color: #fff;
-  text-shadow: 4px 4px 0px #000000;
-}
-
 .buttons {
   display: flex;
   gap: 112px;
