@@ -1,4 +1,4 @@
-#box {
+.box {
   display: inline-block;
 
   background-color: #828282;
@@ -7,6 +7,6 @@
   text-align: center;
 }
 
-#box h1 {
+.box .title {
   margin-bottom: 28px;
 }
