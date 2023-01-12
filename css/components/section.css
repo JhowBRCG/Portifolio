@@ -1,21 +1,8 @@
 .section {
-  background: #160c28 no-repeat center;
+  background-color: #160c28;
   height: 790px;
   border-bottom: 10px solid #7c5e99;
   padding-top: 60px;
   padding-bottom: 100px;
   box-sizing: border-box;
-}
-
-.section .subtitle {
-  font-size: 25px;
-  padding-bottom: 10px;
-}
-
-.section .wrapper-skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 100px;
 }
