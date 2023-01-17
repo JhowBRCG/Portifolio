@@ -1,0 +1,11 @@
+.wrapper-skill {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.wrapper-skill .skill-tech {
+  max-width: 436px;
+  margin-bottom: 80px;
+}
