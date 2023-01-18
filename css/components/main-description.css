@@ -1,0 +1,17 @@
+.main-description {
+  display: inline-block;
+  color: white;
+  text-justify: auto;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.wrapper-text {
+  display: flex;
+
+  width: 1473px;
+  margin: 0 auto;
+}
