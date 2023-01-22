@@ -1,0 +1,34 @@
+.node-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.node-card::before {
+  content: "";
+  position: absolute;
+  bottom: 140px;
+  box-sizing: border-box;
+  height: 0px;
+  width: 40px;
+  border: 2.5px dashed black;
+  transform: rotate(90deg) translateX(-62%);
+}
+
+.node-card .title {
+  font-family: "Press Start 2P", sans-serif;
+  color: #f25a70;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.node-card .logo {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  padding: 0 60px;
+  border: 5px solid black;
+  background-color: #ceb02a;
+}
