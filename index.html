@@ -22,11 +22,14 @@
     <link rel="stylesheet" href="./css/components/progress-bar.css" />
     <link rel="stylesheet" href="./css/components/wrapper-card.css" />
     <link rel="stylesheet" href="./css/components/card-project.css" />
-    <link rel="stylesheet" href="./css/components/wrapper-timeLine.css" />
-    <link rel="stylesheet" href="./css/components/time-line.css" />
-    <link rel="stylesheet" href="./css/components/place-jobs.css" />
+    <link rel="stylesheet" href="./css/components/main-carousel.css" />
+    <link rel="stylesheet" href="./css/components/node-card.css" />
     <link rel="stylesheet" href="./css/components/button-arrow.css" />
     <link rel="stylesheet" href="./css/components/main-description.css" />
+    <link rel="stylesheet" href="./css/components/main-form.css" />
+    <link rel="stylesheet" href="./css/components/main-label.css" />
+    <link rel="stylesheet" href="./css/components/main-input.css" />
+    <link rel="stylesheet" href="./css/components/main-footer.css" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -119,118 +122,131 @@
 
     <section class="main-section -third">
       <h2 class="main-title -second">Sobre</h2>
-      <div class="wrapper-timeLine">
-        <iconify-icon
-          class="ellipsisVertical -right"
-          icon="vaadin:ellipsis-h"
-        ></iconify-icon>
-        <iconify-icon
-          class="ellipsisVertical"
-          icon="vaadin:ellipsis-h"
-        ></iconify-icon>
-        <div class="border"></div>
-        <a href="#" class="button-arrow">
-          <img
-            src="./assets/img/arrow-left.png"
-            class="arrow"
-            alt="flecha para esquerda"
-          />
-        </a>
-        <article class="time-line">
-          <div class="right">
-            <h3 class="date">2012</h3>
-            <iconify-icon
-              class="ellipsis"
-              icon="vaadin:ellipsis-v"
-            ></iconify-icon>
-            <div class="place-jobs">
-              <h3 class="job-name">Soon...</h3>
-            </div>
-          </div>
-        </article>
-        <article class="time-line">
-          <div class="right">
-            <h3 class="date">2014</h3>
-            <iconify-icon
-              class="ellipsis"
-              icon="vaadin:ellipsis-v"
-            ></iconify-icon>
-            <div class="place-jobs -yellow">
-              <h3 class="job-name">Soon...</h3>
-            </div>
-          </div>
-        </article>
-        <article class="time-line">
-          <div class="right">
-            <h3 class="date">2016</h3>
-            <iconify-icon
-              class="ellipsis"
-              icon="vaadin:ellipsis-v"
-            ></iconify-icon>
-            <div class="place-jobs -red">
-              <h3 class="job-name">Soon...</h3>
-            </div>
-          </div>
-        </article>
-        <article class="time-line">
-          <div class="right">
-            <h3 class="date">2017</h3>
-            <iconify-icon
-              class="ellipsis"
-              icon="vaadin:ellipsis-v"
-            ></iconify-icon>
-            <div class="place-jobs -yellow">
-              <h3 class="job-name">Soon...</h3>
-            </div>
-          </div>
-        </article>
-        <article class="time-line">
-          <div class="right">
-            <h3 class="date">2018</h3>
-            <iconify-icon
-              class="ellipsis"
-              icon="vaadin:ellipsis-v"
-            ></iconify-icon>
-            <div class="place-jobs">
-              <h3 class="job-name">Soon...</h3>
-            </div>
-          </div>
-        </article>
-        <article class="time-line">
-          <div class="right">
-            <h3 class="date">2019</h3>
-            <iconify-icon
-              class="ellipsis"
-              icon="vaadin:ellipsis-v"
-            ></iconify-icon>
-            <div class="place-jobs -red">
-              <h3 class="job-name">Soon...</h3>
-            </div>
-          </div>
-        </article>
-        <a href="#" class="button-arrow -right">
-          <img
-            src="./assets/img/arrow-right.png"
-            class="arrow"
-            alt="flecha para esquerda"
-          />
-        </a>
-      </div>
 
-      <div class="wrapper-text">
-        <p class="main-description">
-          Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já
-          trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI
-          como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho
-          conforme o percorre. Marco também tem uma crescente presença em
-          comunidades de UX e Front-end, trabalhando para uní-las, palestra em
-          empresas e eventos como o WebBR, escreve em diversos blogs como o da
-          Caelum, o Pinceladas da Web e seu Medium, quando não está jogando
-          Airsoft ou trocando ideias com amigos.
-        </p>
-      </div>
+      <section class="main-carousel">
+        <button class="button-arrow -left">
+          <span class="content">Avançar</span>
+        </button>
+        <div class="items">
+          <div class="elements">
+            <figure class="node-card">
+              <figcaption class="title">20XX</figcaption>
+              <div class="logo">
+                <img
+                  src="./assets/img/soon-sobre.png"
+                  alt="Logo escrito soon"
+                />
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title">20XX</figcaption>
+              <div class="logo">
+                <img
+                  src="./assets/img/soon-sobre.png"
+                  alt="Logo escrito soon"
+                />
+              </div>
+            </figure>
+            <figure class="node-card">
+              <figcaption class="title">20XX</figcaption>
+              <div class="logo">
+                <img
+                  src="./assets/img/soon-sobre.png"
+                  alt="Logo escrito soon"
+                />
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title">20XX</figcaption>
+              <div class="logo">
+                <img
+                  src="./assets/img/soon-sobre.png"
+                  alt="Logo escrito soon"
+                />
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title">20XX</figcaption>
+              <div class="logo">
+                <img
+                  src="./assets/img/soon-sobre.png"
+                  alt="Logo escrito soon"
+                />
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title">20XX</figcaption>
+              <div class="logo">
+                <img
+                  src="./assets/img/soon-sobre.png"
+                  alt="Logo escrito soon"
+                />
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <button class="button-arrow -right">
+          <span class="content">Voltar</span>
+        </button>
+      </section>
+      <p class="main-description">
+        Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já
+        trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI
+        como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho
+        conforme o percorre. Marco também tem uma crescente presença em
+        comunidades de UX e Front-end, trabalhando para uní-las, palestra em
+        empresas e eventos como o WebBR, escreve em diversos blogs como o da
+        Caelum, o Pinceladas da Web e seu Medium, quando não está jogando
+        Airsoft ou trocando ideias com amigos.
+      </p>
     </section>
 
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <h2 class="main-title -second">Contato</h2>
+
+    <form action="" id="form" class="main-form">
+      <label for="name" class="main-label">Nome</label>
+      <input type="text" class="main-input" id="name" required />
+
+      <label for="email" class="main-label">Email</label>
+      <input type="email" class="main-input" id="email" required />
+
+      <label for="message" class="main-label">Mensagem</label>
+      <textarea id="message" class="main-input -message" required></textarea>
+
+      <input type="submit" value="Enviar" class="main-button -full" />
+    </form>
+
+    <footer class="main-footer">
+      <a href="">
+        <img
+          class="action"
+          src="./assets/img/icon-twitter.png"
+          target="_blank"
+          alt="Logo Twitter"
+        />
+      </a>
+      <a href="">
+        <img
+          class="action"
+          src="./assets/img/icon-youtube.png"
+          target="_blank"
+          alt="Logo Youtube"
+        />
+      </a>
+      <a href="">
+        <img
+          class="action"
+          src="./assets/img/icon-discord.png"
+          target="_blank"
+          alt="Logo Discord"
+        />
+      </a>
+    </footer>
+    <script src="./js/components/main-carousel.js"></script>
   </body>
 </html>
