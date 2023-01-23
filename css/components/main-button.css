@@ -22,8 +22,9 @@
 .main-button.-full {
   background-color: #f25a70;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .main-button.-full:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
