@@ -18,3 +18,11 @@
   background-color: rgb(255, 255, 255);
   color: black;
 }
+
+.main-button.-full {
+  background-color: #f25a70;
+}
+
+.main-button.-full:hover {
+  transform: scale(1.02);
+}
