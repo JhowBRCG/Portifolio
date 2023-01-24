@@ -8,8 +8,24 @@
 
 /* 0 - 980 */
 @media (max-width: 980px) {
-  .main-header .menu {
-    display: none;
+  .main-header > .menu {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: fixed;
+    background-color: #f10f0f;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    top: 0;
+    left: 0;
+  }
+
+  .main-header .main-action {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
